@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "04Itf6Q+w8R+vj+/XIaXiK9ytrUmBBpHo/IqzD6hJvk=",
+  "Hash": "qoZNrUzdKpnhBQHDAFRbePLfHoJSAYz8to9HGMPjoMk=",
   "Source": "Appbay",
   "BasePath": "_content/Appbay",
   "Mode": "Default",
@@ -31773,12 +31773,12 @@
       "OriginalItemSpec": "wwwroot\\manage\\vendor\\jquery-easing\\jquery.easing.min.js"
     },
     {
-      "Identity": "C:\\Users\\Ad1002\\source\\repos\\Appbay\\Appbay\\wwwroot\\uploads\\models\\34cf87ca-7615-49d5-9b34-5023bd920420mobile.png",
+      "Identity": "C:\\Users\\Ad1002\\source\\repos\\Appbay\\Appbay\\wwwroot\\uploads\\models\\0e7b4bc4-b1bf-4dd4-a529-78cc670e74613.jpg",
       "SourceId": "Appbay",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Ad1002\\source\\repos\\Appbay\\Appbay\\wwwroot\\",
       "BasePath": "_content/Appbay",
-      "RelativePath": "uploads/models/34cf87ca-7615-49d5-9b34-5023bd920420mobile.png",
+      "RelativePath": "uploads/models/0e7b4bc4-b1bf-4dd4-a529-78cc670e74613.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -31787,15 +31787,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\models\\34cf87ca-7615-49d5-9b34-5023bd920420mobile.png"
+      "OriginalItemSpec": "wwwroot\\uploads\\models\\0e7b4bc4-b1bf-4dd4-a529-78cc670e74613.jpg"
     },
     {
-      "Identity": "C:\\Users\\Ad1002\\source\\repos\\Appbay\\Appbay\\wwwroot\\uploads\\models\\4c4e2233-e4e9-4420-83af-0b68ba8fe37bhero.jpg",
+      "Identity": "C:\\Users\\Ad1002\\source\\repos\\Appbay\\Appbay\\wwwroot\\uploads\\models\\412e8b16-dab5-4375-bbc2-434b572c6ef41.jpg",
       "SourceId": "Appbay",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Ad1002\\source\\repos\\Appbay\\Appbay\\wwwroot\\",
       "BasePath": "_content/Appbay",
-      "RelativePath": "uploads/models/4c4e2233-e4e9-4420-83af-0b68ba8fe37bhero.jpg",
+      "RelativePath": "uploads/models/412e8b16-dab5-4375-bbc2-434b572c6ef41.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -31804,15 +31804,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\models\\4c4e2233-e4e9-4420-83af-0b68ba8fe37bhero.jpg"
+      "OriginalItemSpec": "wwwroot\\uploads\\models\\412e8b16-dab5-4375-bbc2-434b572c6ef41.jpg"
     },
     {
-      "Identity": "C:\\Users\\Ad1002\\source\\repos\\Appbay\\Appbay\\wwwroot\\uploads\\models\\7073352c-e7c2-4926-bb37-112643abc447apple-touch-icon.png",
+      "Identity": "C:\\Users\\Ad1002\\source\\repos\\Appbay\\Appbay\\wwwroot\\uploads\\models\\e2420819-6595-4424-85dd-4d321dec2c1b2.jpg",
       "SourceId": "Appbay",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Ad1002\\source\\repos\\Appbay\\Appbay\\wwwroot\\",
       "BasePath": "_content/Appbay",
-      "RelativePath": "uploads/models/7073352c-e7c2-4926-bb37-112643abc447apple-touch-icon.png",
+      "RelativePath": "uploads/models/e2420819-6595-4424-85dd-4d321dec2c1b2.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -31821,7 +31821,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\models\\7073352c-e7c2-4926-bb37-112643abc447apple-touch-icon.png"
+      "OriginalItemSpec": "wwwroot\\uploads\\models\\e2420819-6595-4424-85dd-4d321dec2c1b2.jpg"
     }
   ]
 }

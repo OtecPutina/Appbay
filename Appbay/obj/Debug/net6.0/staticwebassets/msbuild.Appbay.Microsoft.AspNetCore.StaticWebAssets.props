@@ -29872,12 +29872,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\manage\vendor\jquery\jquery.slim.min.map))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\models\34cf87ca-7615-49d5-9b34-5023bd920420mobile.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\models\0e7b4bc4-b1bf-4dd4-a529-78cc670e74613.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Appbay</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Appbay</BasePath>
-      <RelativePath>uploads/models/34cf87ca-7615-49d5-9b34-5023bd920420mobile.png</RelativePath>
+      <RelativePath>uploads/models/0e7b4bc4-b1bf-4dd4-a529-78cc670e74613.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -29886,14 +29886,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\models\34cf87ca-7615-49d5-9b34-5023bd920420mobile.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\models\0e7b4bc4-b1bf-4dd4-a529-78cc670e74613.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\models\4c4e2233-e4e9-4420-83af-0b68ba8fe37bhero.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\models\412e8b16-dab5-4375-bbc2-434b572c6ef41.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Appbay</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Appbay</BasePath>
-      <RelativePath>uploads/models/4c4e2233-e4e9-4420-83af-0b68ba8fe37bhero.jpg</RelativePath>
+      <RelativePath>uploads/models/412e8b16-dab5-4375-bbc2-434b572c6ef41.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -29902,14 +29902,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\models\4c4e2233-e4e9-4420-83af-0b68ba8fe37bhero.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\models\412e8b16-dab5-4375-bbc2-434b572c6ef41.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\models\7073352c-e7c2-4926-bb37-112643abc447apple-touch-icon.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\models\e2420819-6595-4424-85dd-4d321dec2c1b2.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Appbay</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Appbay</BasePath>
-      <RelativePath>uploads/models/7073352c-e7c2-4926-bb37-112643abc447apple-touch-icon.png</RelativePath>
+      <RelativePath>uploads/models/e2420819-6595-4424-85dd-4d321dec2c1b2.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -29918,7 +29918,7 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\models\7073352c-e7c2-4926-bb37-112643abc447apple-touch-icon.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\models\e2420819-6595-4424-85dd-4d321dec2c1b2.jpg))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

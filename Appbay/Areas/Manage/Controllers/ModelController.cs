@@ -100,6 +100,7 @@ namespace Appbay.Areas.Manage.Controllers
                     model.ImageFile.CopyTo(stream);
                 }
                 existModel.ImageUrl = filename;
+                    
             }
             existModel.Name = model.Name;
             existModel.Description = model.Description;
