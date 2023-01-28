@@ -33,6 +33,7 @@ namespace Appbay.Areas.Manage.Controllers
 		[HttpPost]
 		public IActionResult Update(Setting setting)
 		{
+			if(!ModelState.IsValid) return View(setting);
 			Setting existSetting = _context.Settings.Find(setting.Id);
 			if (existSetting == null) return NotFound();
 			existSetting.Value=setting.Value;

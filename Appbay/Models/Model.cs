@@ -7,9 +7,9 @@ namespace Appbay.Models
     {
         public int Id { get; set; }
         [StringLength(maximumLength:100)]
-        public string? Name { get; set; }
+        public string Name { get; set; }
         [StringLength(maximumLength:100)]
-        public string? Description { get; set; }
+        public string Description { get; set; }
         [StringLength(maximumLength:100)]
         public string? ImageUrl { get; set; }
         [NotMapped]

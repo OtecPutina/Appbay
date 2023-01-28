@@ -32,7 +32,8 @@ namespace Appbay.Areas.Manage.Controllers
         [HttpPost]
         public IActionResult Create(Model model)
         {
-            if (model.ImageFile.ContentType!="image/png"&&model.ImageFile.ContentType!="image/jpeg")
+			if (!ModelState.IsValid) return View(model);
+			if (model.ImageFile.ContentType!="image/png"&&model.ImageFile.ContentType!="image/jpeg")
             {
                 ModelState.AddModelError("ImageFile", "You must upload only png or jpeg files");
                 return View();
@@ -69,6 +70,7 @@ namespace Appbay.Areas.Manage.Controllers
         [HttpPost]
         public IActionResult Update(Model model)
         {
+            if (!ModelState.IsValid) return View(model);
             Model existModel = _context.Models.Find(model.Id);
             if (existModel is null) return NotFound();
             if (model.ImageFile is not null)
