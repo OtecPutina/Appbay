@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "StaYvbCtLwyugnBUHMufUQzckMelLpPoQXfb7Ll7sN0=",
+  "Hash": "4HWFUHlFCwqYZbWHaOwKeLs0c1RO+N1sbx+mGJqfDoc=",
   "Source": "Appbay",
   "BasePath": "_content/Appbay",
   "Mode": "Default",
@@ -31771,6 +31771,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\manage\\vendor\\jquery-easing\\jquery.easing.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\Ad1002\\source\\repos\\Appbay\\Appbay\\wwwroot\\uploads\\models\\4c4e2233-e4e9-4420-83af-0b68ba8fe37bhero.jpg",
+      "SourceId": "Appbay",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ad1002\\source\\repos\\Appbay\\Appbay\\wwwroot\\",
+      "BasePath": "_content/Appbay",
+      "RelativePath": "uploads/models/4c4e2233-e4e9-4420-83af-0b68ba8fe37bhero.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\models\\4c4e2233-e4e9-4420-83af-0b68ba8fe37bhero.jpg"
     }
   ]
 }

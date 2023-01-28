@@ -1,0 +1,26 @@
+﻿@model Model
+<div class="container">
+    <div style="display:flex">
+        <h1>Update Model</h1>
+    </div>
+    <div>
+        <form method="post" enctype="multipart/form-data">
+            <div class="mb-3">
+                <label asp-for="Name" class="form-label">Name</label>
+                <input asp-for="Name" class="form-control">
+                <span asp-validation-for="Name"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Description" class="form-label">Description</label>
+                <input asp-for="Description" class="form-control">
+                <span asp-validation-for="Description"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="ImageFile" class="form-label">ImageFile</label>
+                <input asp-for="ImageFile" class="form-control">
+                <span asp-validation-for="ImageFile"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Update</button>
+        </form>
+    </div>
+</div>

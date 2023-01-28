@@ -1,4 +1,6 @@
 using Appbay.Context;
+using Appbay.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace Appbay
@@ -12,6 +14,15 @@ namespace Appbay
             {
                 opt.UseSqlServer("Server=DESKTOP-U2JK4CO;Database=AppbayDatabase;Trusted_Connection=True");
             });
+            builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
+            {
+                opt.Password.RequireNonAlphanumeric = false;
+                opt.Password.RequiredLength = 8;
+                opt.Password.RequireUppercase = false;
+                opt.Password.RequireDigit = true;
+                opt.Password.RequireLowercase = true;
+                opt.User.RequireUniqueEmail = false;
+            }).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();

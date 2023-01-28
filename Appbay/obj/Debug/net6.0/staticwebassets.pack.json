@@ -7469,6 +7469,10 @@
       "PackagePath": "staticwebassets\\manage\\vendor\\jquery\\jquery.slim.min.map"
     },
     {
+      "Id": "C:\\Users\\Ad1002\\source\\repos\\Appbay\\Appbay\\wwwroot\\uploads\\models\\4c4e2233-e4e9-4420-83af-0b68ba8fe37bhero.jpg",
+      "PackagePath": "staticwebassets\\uploads\\models\\4c4e2233-e4e9-4420-83af-0b68ba8fe37bhero.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Appbay.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
