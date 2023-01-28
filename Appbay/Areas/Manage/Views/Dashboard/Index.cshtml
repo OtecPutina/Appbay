@@ -1,4 +1,8 @@
-﻿            <!-- Main Content -->
+﻿@inject Appbay.Areas.Manage.Service.LayoutService service;
+@{
+    AppUser user = await  service.GetUser();
+}
+            <!-- Main Content -->
 <div id="content">
 
     <!-- Topbar -->
@@ -180,7 +184,10 @@
             <li class="nav-item dropdown no-arrow">
                 <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <span class="mr-2 d-none d-lg-inline text-gray-600 small">@user.Fullname</span>
+                    }
                     <img class="img-profile rounded-circle"
                          src="~/manage/img/undraw_profile.svg">
                 </a>

@@ -12,5 +12,6 @@ namespace Appbay.Context
         }
         public DbSet<Model> Models { get; set; }
         public DbSet<AppUser> AppUsers { get; set; }
+        public DbSet<Setting> Settings { get; set; }
     }
 }

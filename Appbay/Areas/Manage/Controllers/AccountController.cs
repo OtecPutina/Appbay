@@ -38,5 +38,11 @@ namespace Appbay.Areas.Manage.Controllers
             }
             return RedirectToAction("Index", "Dashboard");
         }
+        public async Task<IActionResult> Logout()
+        {
+            AppUser appUser = await _userManager.FindByNameAsync("admin");
+            await _signInManager.SignOutAsync();
+            return RedirectToAction("Index");
+        }
     }
 }

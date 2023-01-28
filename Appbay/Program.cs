@@ -1,3 +1,4 @@
+using Appbay.Areas.Manage.Service;
 using Appbay.Context;
 using Appbay.Models;
 using Microsoft.AspNetCore.Identity;
@@ -23,7 +24,7 @@ namespace Appbay
                 opt.Password.RequireLowercase = true;
                 opt.User.RequireUniqueEmail = false;
             }).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
-
+            builder.Services.AddScoped<LayoutService>();
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
@@ -41,7 +42,7 @@ namespace Appbay
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseAuthentication();
             app.UseAuthorization();
             app.MapControllerRoute(
             name: "areas",

@@ -1,4 +1,6 @@
-﻿<div id="topWrap" class="jumbotron">
+﻿@using Appbay.ViewModel
+@model HomeViewModel
+<div id="topWrap" class="jumbotron">
 	<div class="container">
 		<div class="col-md-6 col-md-push-6 jumboText">
 			<h1>Responsive App Landing Page</h1>
@@ -26,27 +28,18 @@
 <div id="featureWrap">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-4 text-center feature">
-				<i class="fa fa-tablet icon"></i>
-				<h3>Responsive Bootstrap Template</h3>
+			@foreach (Model item in Model.Models)
+			{
+				<div class="col-sm-4 text-center feature">
+				<div style="width:200px">
+						<img style="width:100%" src="~/uploads/models/@item.ImageUrl">
+				</div>
+				<h3>@item.Name</h3>
 				<p>
-					Lorem ipsum dolizzle sit tellivizzle, boom shackalack adipiscing elit. Nullam mofo velizzle, get down get down stuff, sure cool, dizzle vizzle, arcu. Yo mamma izzle tortizzle.
+					@item.Description
 				</p>
 			</div>
-			<div class="col-sm-4 text-center feature">
-				<i class="fa fa-pencil icon"></i>
-				<h3>Easy to Customize</h3>
-				<p>
-					Lorem ipsum dolizzle sit tellivizzle, boom shackalack adipiscing elit. Nullam mofo velizzle, get down get down stuff, sure cool, dizzle vizzle, arcu. Yo mamma izzle tortizzle.
-				</p>
-			</div>
-			<div class="col-sm-4 text-center feature">
-				<i class="fa fa-star icon"></i>
-				<h3>Ideal for Apps or Software</h3>
-				<p>
-					Lorem ipsum dolizzle sit tellivizzle, boom shackalack adipiscing elit. Nullam mofo velizzle, get down get down stuff, sure cool, dizzle vizzle, arcu. Yo mamma izzle tortizzle.
-				</p>
-			</div>
+			}
 		</div>
 	</div>
 </div> <!-- /featureWrap -->
