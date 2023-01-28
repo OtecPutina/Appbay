@@ -1,4 +1,8 @@
-﻿<!DOCTYPE html>
+﻿@inject Appbay.Helpers.SettingService service;
+@{
+	List<Setting> settings = await service.GetSettingsAsync();
+}
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
@@ -20,11 +24,15 @@
 	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/svg-with-js.min.css" integrity="sha512-iyaXtrpKz7FIRsICgrvVtq1vkSJT/cfLeXA0sHSQaAs0y3LdqXWlQCXTxM246mTQ/M2qpyVX3A0aRfmTt0LOCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css" integrity="sha512-giQeaPns4lQTBMRpOOHsYnGw1tGVzbAIHUyHRgn7+6FmiEgGGjaG0T2LZJmAPMzRCl+Cug0ItQ2xDZpTmEc+CQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
 	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+
 	<![endif]-->
 </head>
 
@@ -43,7 +51,7 @@
 						<i class="fa fa-circle fa-stack-2x"></i>
 						<i class="fa fa-mobile fa-stack-1x fa-inverse"></i>
 					</span>
-					App<span class="title">Bay</span>
+					@settings.FirstOrDefault(x=>x.Key=="HeaderLogoPart1").Value<span class="title">@settings.FirstOrDefault(x=>x.Key=="HeaderLogoPart2").Value</span>
 				</a>
 			</div>
 			<div class="collapse navbar-collapse appiNav">
@@ -66,28 +74,24 @@
 				<div class="col-xs-12 text-center">
 					<p>Copyright &copy; 2014 AppBay - Responsive App Landing Page Template. Built by <a href="http://bootstrapbay.com">BootstrapBay</a>. All Rights Reserved</p>
 					<p class="social">
-						<a href="https://www.facebook.com/bootstrapbay">
+						<a href="@settings.FirstOrDefault(x=>x.Key=="FacebookLink").Value">
 							<span class="fa-stack fa-lg">
-								<i class="fa fa-circle fa-stack-2x"></i>
-								<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+								<i class="fa-brands fa-facebook"></i>
 							</span>
 						</a>
-						<a href="https://twitter.com/bootstrapbay">
+						<a href="@settings.FirstOrDefault(x=>x.Key=="TwitterLink").Value">
 							<span class="fa-stack fa-lg">
-								<i class="fa fa-circle fa-stack-2x"></i>
-								<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+								<i class="fa-brands fa-twitter"></i>
 							</span>
 						</a>
-						<a href="https://plus.google.com/+BootstrapbayThemes">
+						<a href="@settings.FirstOrDefault(x=>x.Key=="GooglePlusLink").Value">
 							<span class="fa-stack fa-lg">
-								<i class="fa fa-circle fa-stack-2x"></i>
-								<i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+								<i class="fa-brands fa-google-plus-g"></i>
 							</span>
 						</a>
-						<a href="http://www.youtube.com/user/bootstrapbayofficial">
+						<a href="@settings.FirstOrDefault(x=>x.Key=="YoutubeLink").Value">
 							<span class="fa-stack fa-lg">
-								<i class="fa fa-circle fa-stack-2x"></i>
-								<i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+								<i class="fa-brands fa-youtube"></i>
 							</span>
 						</a>
 					</p>

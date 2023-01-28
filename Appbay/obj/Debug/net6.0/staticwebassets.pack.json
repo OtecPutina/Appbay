@@ -7469,8 +7469,16 @@
       "PackagePath": "staticwebassets\\manage\\vendor\\jquery\\jquery.slim.min.map"
     },
     {
+      "Id": "C:\\Users\\Ad1002\\source\\repos\\Appbay\\Appbay\\wwwroot\\uploads\\models\\34cf87ca-7615-49d5-9b34-5023bd920420mobile.png",
+      "PackagePath": "staticwebassets\\uploads\\models\\34cf87ca-7615-49d5-9b34-5023bd920420mobile.png"
+    },
+    {
       "Id": "C:\\Users\\Ad1002\\source\\repos\\Appbay\\Appbay\\wwwroot\\uploads\\models\\4c4e2233-e4e9-4420-83af-0b68ba8fe37bhero.jpg",
       "PackagePath": "staticwebassets\\uploads\\models\\4c4e2233-e4e9-4420-83af-0b68ba8fe37bhero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ad1002\\source\\repos\\Appbay\\Appbay\\wwwroot\\uploads\\models\\7073352c-e7c2-4926-bb37-112643abc447apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\uploads\\models\\7073352c-e7c2-4926-bb37-112643abc447apple-touch-icon.png"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Appbay.Microsoft.AspNetCore.StaticWebAssets.props",

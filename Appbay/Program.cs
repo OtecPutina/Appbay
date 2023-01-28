@@ -1,5 +1,6 @@
 using Appbay.Areas.Manage.Service;
 using Appbay.Context;
+using Appbay.Helpers;
 using Appbay.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -25,6 +26,7 @@ namespace Appbay
                 opt.User.RequireUniqueEmail = false;
             }).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
             builder.Services.AddScoped<LayoutService>();
+            builder.Services.AddScoped<SettingService>();
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
